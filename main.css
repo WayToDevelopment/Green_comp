@@ -126,7 +126,7 @@ button{
     margin-top: 15px;
 }
 
-.form input, select{
+.form input, .form select{
     font-size: 18px;
     color: #213053;
     height: 60px;
@@ -169,6 +169,7 @@ input {
   .footer__container{
     display: flex;
     justify-content: center;
+    
   }
 
   .footer__copyright{
@@ -190,8 +191,6 @@ opacity: 0.5;
   .footer__links{
     display:flex;
     flex-direction: column;
-    text-align: start;
-
   }
 
   .footer__links a{
